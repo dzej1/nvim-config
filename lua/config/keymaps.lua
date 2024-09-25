@@ -4,6 +4,8 @@
 
 vim.keymap.set("i", "jj", "<Esc>:normal j<CR>", { desc = "Esc and down" })
 vim.keymap.set("i", "kk", "<Esc>:normal k<CR>", { desc = "Esc and up" })
+vim.keymap.set("i", "jk", "<Esc>:normal<CR>", { desc = "Esc" })
+vim.keymap.set("i", "kj", "<Esc>:normal<CR>", { desc = "Esc" })
 vim.keymap.set("n", "cp", ':let @+ = expand("%")<CR>', { desc = "Copy filename" })
 
 vim.keymap.set("n", "<left>", '<cmd>echo "Use h to move!!"<CR>')
