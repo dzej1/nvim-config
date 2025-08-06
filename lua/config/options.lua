@@ -5,3 +5,5 @@
 local opt = vim.opt
 
 opt.scrolloff = 10
+opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+opt.foldmethod = "expr"
