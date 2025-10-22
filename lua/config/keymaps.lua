@@ -14,6 +14,7 @@ vim.keymap.set({ "n", "i" }, "<up>", '<cmd>echo "Use k to move!!"<CR>')
 vim.keymap.set({ "n", "i" }, "<down>", '<cmd>echo "Use j to move!!"<CR>')
 
 vim.keymap.set({ "n", "x" }, "<C-0>", ":BlameToggle virtual<CR>")
+vim.keymap.set({ "n" }, "<C-t>", '<cmd>echo "you surely do not want to use tags"<CR>')
 
 -- Smart bracket text objects
 local function smart_bracket(inner, bracket)
